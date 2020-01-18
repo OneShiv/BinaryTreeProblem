@@ -29,7 +29,7 @@ node11.right = node22;
 node12.left = node23;
 node12.right = node24;
 
-node21.left = node31;
+//node21.left = node31;
 node23.right = node32;
 node24.left = node33;
 node24.right = node34;
@@ -102,3 +102,11 @@ leftNOdeArrays.forEach(leftNode => {
 });
 
 console.log(HashedArray);
+
+// binary tree traversal complexity is i think
+// O(n)
+
+// HashTable used also has same complexity of O(m)
+// m is no of left nodes found.
+// I tried testing it by commenting line no 32
+// the output given is perfectly fine.
